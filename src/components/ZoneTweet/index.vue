@@ -104,7 +104,7 @@ export default {
           line-height: 17.58px;
           cursor: pointer;
           color: #fff;
-          transition: 1s color, 1s background-color;
+          transition: 1s color, 10s background-color;
         }
         button:hover {
           color: #1da1f2;

@@ -20,29 +20,6 @@ export default {
     <ZoneTweet />
     <Tweet />
     <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
-    <Tweet />
   </div>
 </template>
 
@@ -51,21 +28,22 @@ export default {
   // max-width: 600px;
   // min-width: 598px;
   border: 1px solid rgba(0, 0, 0, 0.08);
+}
 
-  .title {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    h3 {
-      font-weight: 900;
-      font-size: 23px;
-      line-height: 22.27px;
-      color: #000;
-      cursor: pointer;
-    }
-    img {
-      cursor: pointer;
-    }
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  h3 {
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 22.27px;
+    color: #000;
+    cursor: pointer;
+  }
+  img {
+    cursor: pointer;
   }
 }
+
 </style>
